@@ -1,1 +1,9 @@
-* text eol=lf
+* text=auto eol=lf
+
+# Exclude specific file types
+*.pyc -text
+*.exe -text
+*.bat -text
+
+# Exclude specific paths
+/accounts/accountvenv/Scripts/* -text
